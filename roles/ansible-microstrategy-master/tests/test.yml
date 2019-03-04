@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    # needs to match repository name; when the role is included normally, it will be `gsa.microstrategy`
+    - ansible-microstrategy
